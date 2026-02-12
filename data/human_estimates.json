@@ -1,0 +1,32 @@
+{
+  "shapes_hard": {
+    "difficulty": "human_estimate",
+    "estimates": {
+      "25%": {"value": 45, "unit": "minutes", "hours": 0.75},
+      "50%": {"value": 90, "unit": "minutes", "hours": 1.5},
+      "70%": {"value": 120, "unit": "minutes", "hours": 2.0},
+      "90%": {"value": 480, "unit": "minutes", "hours": 8.0},
+      "95%": {"value": 960, "unit": "minutes", "hours": 16.0}
+    }
+  },
+  "digits_generalize": {
+    "difficulty": "human_estimate",
+    "estimates": {
+      "25%": {"value": 60, "unit": "minutes", "hours": 1.0},
+      "50%": {"value": 480, "unit": "minutes", "hours": 8.0},
+      "70%": {"value": 2000, "unit": "minutes", "hours": 33.33},
+      "90%": {"value": 4000, "unit": "minutes", "hours": 66.67},
+      "95%": {"value": 8000, "unit": "minutes", "hours": 133.33}
+    }
+  },
+  "number_patterns": {
+    "difficulty": "human_estimate",
+    "estimates": {
+      "25%": {"value": 30, "unit": "minutes", "hours": 0.5},
+      "50%": {"value": 90, "unit": "minutes", "hours": 1.5},
+      "70%": {"value": 2, "unit": "hours", "hours": 2.0},
+      "90%": {"value": 6, "unit": "hours", "hours": 6.0},
+      "95%": {"value": 10, "unit": "hours", "hours": 10.0}
+    }
+  }
+}

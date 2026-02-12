@@ -1,0 +1,58 @@
+{
+  "description": "Calibration factors comparing human (author) time estimates to LLM estimates. Computed as average of ln(human_hours) - ln(model_hours) across 3 tasks and 4 estimator models. A negative avg_log_diff means models overestimate time relative to the human baseline.",
+  "fields": {
+    "avg_log_diff": "Mean of ln(human_hours) - ln(model_hours). Unit: natural log (ln). To convert to log10, divide by ln(10) ≈ 2.303.",
+    "ratio": "exp(avg_log_diff) = human_hours / model_hours. Dimensionless. Values < 1 mean models overestimate.",
+    "model_overestimate_factor": "1 / ratio = model_hours / human_hours. Dimensionless. E.g. 3.25 means models estimate 3.25x more time than the human.",
+    "n_comparisons": "Number of (task, estimator_model) pairs contributing to the average."
+  },
+  "tasks_used": [
+    "shapes_hard",
+    "digits_generalize",
+    "number_patterns"
+  ],
+  "models_used": [
+    "gpt-5.2:medium",
+    "gemini-3-pro-preview",
+    "claude-opus-4.5",
+    "grok-4-07-09"
+  ],
+  "by_threshold": {
+    "25%": {
+      "avg_log_diff": -1.03,
+      "ratio": 0.357,
+      "model_overestimate_factor": 2.8,
+      "n_comparisons": 12
+    },
+    "50%": {
+      "avg_log_diff": -1.179,
+      "ratio": 0.308,
+      "model_overestimate_factor": 3.25,
+      "n_comparisons": 12
+    },
+    "70%": {
+      "avg_log_diff": -1.659,
+      "ratio": 0.19,
+      "model_overestimate_factor": 5.25,
+      "n_comparisons": 12
+    },
+    "90%": {
+      "avg_log_diff": -1.748,
+      "ratio": 0.174,
+      "model_overestimate_factor": 5.74,
+      "n_comparisons": 12
+    },
+    "95%": {
+      "avg_log_diff": -2.032,
+      "ratio": 0.131,
+      "model_overestimate_factor": 7.63,
+      "n_comparisons": 11
+    }
+  },
+  "overall": {
+    "avg_log_diff": -1.521,
+    "ratio": 0.218,
+    "model_overestimate_factor": 4.58,
+    "n_comparisons": 59
+  }
+}

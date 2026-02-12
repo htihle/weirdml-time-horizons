@@ -1,0 +1,2008 @@
+{
+  "blunders_easy": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "medium",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "very_hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "50%": {
+          "value": 10,
+          "unit": "hours",
+          "hours": 10
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 4,
+          "unit": "weeks",
+          "hours": 160
+        },
+        "95%": {
+          "value": 12,
+          "unit": "weeks",
+          "hours": 480
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "90%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        },
+        "95%": {
+          "value": 80,
+          "unit": "hours",
+          "hours": 80
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "90%": {
+          "value": 25,
+          "unit": "hours",
+          "hours": 25
+        },
+        "95%": {
+          "value": 50,
+          "unit": "hours",
+          "hours": 50
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "70%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        },
+        "90%": {
+          "value": 120,
+          "unit": "hours",
+          "hours": 120
+        },
+        "95%": {
+          "value": 200,
+          "unit": "hours",
+          "hours": 200
+        }
+      }
+    }
+  },
+  "blunders_hard": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "Hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "very_hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "50%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "70%": {
+          "value": 10,
+          "unit": "days",
+          "hours": 80
+        },
+        "90%": {
+          "value": 6,
+          "unit": "weeks",
+          "hours": 240
+        },
+        "95%": {
+          "value": 12,
+          "unit": "weeks",
+          "hours": 480
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 1,
+          "unit": "hour",
+          "hours": 1
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "90%": {
+          "value": 24,
+          "unit": "hours",
+          "hours": 24
+        },
+        "95%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "90%": {
+          "value": 4,
+          "unit": "days",
+          "hours": 32
+        },
+        "95%": {
+          "value": 6,
+          "unit": "days",
+          "hours": 48
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 1,
+          "unit": "week",
+          "hours": 40
+        },
+        "90%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "95%": {
+          "value": 2,
+          "unit": "months",
+          "hours": 320
+        }
+      }
+    }
+  },
+  "chess_winners": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 30,
+          "unit": "minutes",
+          "hours": 0.5
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "90%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "95%": {
+          "value": 12,
+          "unit": "months",
+          "hours": 1920
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 30,
+          "unit": "minutes",
+          "hours": 0.5
+        },
+        "50%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 32,
+          "unit": "hours",
+          "hours": 32
+        },
+        "95%": {
+          "value": 120,
+          "unit": "hours",
+          "hours": 120
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 30,
+          "unit": "minutes",
+          "hours": 0.5
+        },
+        "50%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        },
+        "95%": {
+          "value": 200,
+          "unit": "hours",
+          "hours": 200
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "90%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "95%": {
+          "value": 2,
+          "unit": "months",
+          "hours": 320
+        }
+      }
+    }
+  },
+  "classify_sentences": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "very_hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 2,
+          "unit": "weeks",
+          "hours": 80
+        },
+        "90%": {
+          "value": 3,
+          "unit": "months",
+          "hours": 480
+        },
+        "95%": {
+          "value": 1,
+          "unit": "year",
+          "hours": 2080
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 1,
+          "unit": "hour",
+          "hours": 1
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "90%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "95%": {
+          "value": 1000,
+          "unit": "hours",
+          "hours": 1000
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 45,
+          "unit": "minutes",
+          "hours": 0.75
+        },
+        "50%": {
+          "value": 2.5,
+          "unit": "hours",
+          "hours": 2.5
+        },
+        "70%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "90%": {
+          "value": 25,
+          "unit": "hours",
+          "hours": 25
+        },
+        "95%": {
+          "value": 50,
+          "unit": "hours",
+          "hours": 50
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 2,
+          "unit": "weeks",
+          "hours": 80
+        },
+        "90%": {
+          "value": 3,
+          "unit": "months",
+          "hours": 480
+        },
+        "95%": {
+          "value": 6,
+          "unit": "months",
+          "hours": 960
+        }
+      }
+    }
+  },
+  "classify_shuffled": {
+    "difficulty": {
+      "gpt-5.2:medium": "hard",
+      "gemini-3-pro-preview": "Hard",
+      "claude-opus-4.5": "medium",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 10,
+          "unit": "hours",
+          "hours": 10
+        },
+        "70%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "90%": {
+          "value": 6,
+          "unit": "weeks",
+          "hours": 240
+        },
+        "95%": {
+          "value": 6,
+          "unit": "months",
+          "hours": 960
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "90%": {
+          "value": 80,
+          "unit": "hours",
+          "hours": 80
+        },
+        "95%": {
+          "value": 1000,
+          "unit": "hours (effectively impossible)",
+          "hours": 1000
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 45,
+          "unit": "minutes",
+          "hours": 0.75
+        },
+        "50%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "70%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "90%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "95%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 10,
+          "unit": "days",
+          "hours": 80
+        },
+        "95%": {
+          "value": 30,
+          "unit": "days",
+          "hours": 240
+        }
+      }
+    }
+  },
+  "digits_generalize": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "very_hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "unknown"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "70%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "90%": {
+          "value": 6,
+          "unit": "months",
+          "hours": 960
+        },
+        "95%": {
+          "value": 2,
+          "unit": "years",
+          "hours": 4160
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "70%": {
+          "value": 60,
+          "unit": "hours",
+          "hours": 60
+        },
+        "90%": {
+          "value": 1000,
+          "unit": "hours (effectively impossible)",
+          "hours": 1000
+        },
+        "95%": {
+          "value": 0,
+          "unit": "impossible",
+          "hours": 0
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 20,
+          "unit": "hours",
+          "hours": 20
+        },
+        "90%": {
+          "value": 100,
+          "unit": "hours",
+          "hours": 100
+        },
+        "95%": {
+          "value": 500,
+          "unit": "hours",
+          "hours": 500
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4.0,
+          "unit": "hours",
+          "hours": 4.0
+        },
+        "50%": {
+          "value": 2.0,
+          "unit": "days",
+          "hours": 16.0
+        },
+        "70%": {
+          "value": 3.0,
+          "unit": "weeks",
+          "hours": 120.0
+        },
+        "90%": {
+          "value": 2.0,
+          "unit": "months",
+          "hours": 320.0
+        },
+        "95%": {
+          "value": 6.0,
+          "unit": "months",
+          "hours": 960.0
+        }
+      }
+    }
+  },
+  "digits_unsup": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "medium",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "95%": {
+          "value": 8,
+          "unit": "weeks",
+          "hours": 320
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 1,
+          "unit": "hour",
+          "hours": 1
+        },
+        "50%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "70%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "90%": {
+          "value": 7,
+          "unit": "hours",
+          "hours": 7
+        },
+        "95%": {
+          "value": 10,
+          "unit": "hours",
+          "hours": 10
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 1.5,
+          "unit": "hours",
+          "hours": 1.5
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "95%": {
+          "value": 30,
+          "unit": "hours",
+          "hours": 30
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 10,
+          "unit": "days",
+          "hours": 80
+        },
+        "95%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        }
+      }
+    }
+  },
+  "insert_patches": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "hard",
+      "claude-opus-4.5": "medium",
+      "grok-4-07-09": "unknown"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "50%": {
+          "value": 4,
+          "unit": "days",
+          "hours": 32
+        },
+        "70%": {
+          "value": 2,
+          "unit": "weeks",
+          "hours": 80
+        },
+        "90%": {
+          "value": 8,
+          "unit": "weeks",
+          "hours": 320
+        },
+        "95%": {
+          "value": 6,
+          "unit": "months",
+          "hours": 960
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 7,
+          "unit": "hours",
+          "hours": 7
+        },
+        "70%": {
+          "value": 9,
+          "unit": "hours",
+          "hours": 9
+        },
+        "90%": {
+          "value": 20,
+          "unit": "hours",
+          "hours": 20
+        },
+        "95%": {
+          "value": 32,
+          "unit": "hours",
+          "hours": 32
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 20,
+          "unit": "hours",
+          "hours": 20
+        },
+        "95%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 8.0,
+          "unit": "hours",
+          "hours": 8.0
+        },
+        "50%": {
+          "value": 3.0,
+          "unit": "days",
+          "hours": 24.0
+        },
+        "70%": {
+          "value": 2.0,
+          "unit": "weeks",
+          "hours": 80.0
+        },
+        "90%": {
+          "value": 1.0,
+          "unit": "month",
+          "hours": 160.0
+        },
+        "95%": {
+          "value": 3.0,
+          "unit": "months",
+          "hours": 480.0
+        }
+      }
+    }
+  },
+  "kolmo_shuffle": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 6,
+          "unit": "days",
+          "hours": 48
+        },
+        "90%": {
+          "value": 4,
+          "unit": "weeks",
+          "hours": 160
+        },
+        "95%": {
+          "value": 4,
+          "unit": "months",
+          "hours": 640
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 45,
+          "unit": "minutes",
+          "hours": 0.75
+        },
+        "50%": {
+          "value": 5,
+          "unit": "hours",
+          "hours": 5
+        },
+        "70%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "90%": {
+          "value": 1000,
+          "unit": "hours (effectively impossible)",
+          "hours": 1000
+        },
+        "95%": {
+          "value": 1000,
+          "unit": "hours (impossible)",
+          "hours": 1000
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 45,
+          "unit": "minutes",
+          "hours": 0.75
+        },
+        "50%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "70%": {
+          "value": 5,
+          "unit": "hours",
+          "hours": 5
+        },
+        "90%": {
+          "value": 20,
+          "unit": "hours",
+          "hours": 20
+        },
+        "95%": {
+          "value": 60,
+          "unit": "hours",
+          "hours": 60
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 1.5,
+          "unit": "days",
+          "hours": 12.0
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 4,
+          "unit": "weeks",
+          "hours": 160
+        },
+        "95%": {
+          "value": 3,
+          "unit": "months",
+          "hours": 480
+        }
+      }
+    }
+  },
+  "number_patterns": {
+    "difficulty": {
+      "gpt-5.2:medium": "hard",
+      "gemini-3-pro-preview": "hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "unknown"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 1.0,
+          "unit": "hour",
+          "hours": 1.0
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "90%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "95%": {
+          "value": 10,
+          "unit": "days",
+          "hours": 80
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 1,
+          "unit": "hour",
+          "hours": 1
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "90%": {
+          "value": 24,
+          "unit": "hours",
+          "hours": 24
+        },
+        "95%": {
+          "value": 48,
+          "unit": "hours",
+          "hours": 48
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 1.5,
+          "unit": "hours",
+          "hours": 1.5
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "95%": {
+          "value": 30,
+          "unit": "hours",
+          "hours": 30
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4.0,
+          "unit": "hours",
+          "hours": 4.0
+        },
+        "50%": {
+          "value": 1.5,
+          "unit": "days",
+          "hours": 12.0
+        },
+        "70%": {
+          "value": 4.0,
+          "unit": "days",
+          "hours": 32.0
+        },
+        "90%": {
+          "value": 7.0,
+          "unit": "days",
+          "hours": 56.0
+        },
+        "95%": {
+          "value": 14.0,
+          "unit": "days",
+          "hours": 112.0
+        }
+      }
+    }
+  },
+  "shapes_easy": {
+    "difficulty": {
+      "gpt-5.2:medium": "hard",
+      "gemini-3-pro-preview": "medium",
+      "claude-opus-4.5": "medium",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 0.5,
+          "unit": "hours",
+          "hours": 0.5
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "90%": {
+          "value": 4,
+          "unit": "days",
+          "hours": 32
+        },
+        "95%": {
+          "value": 10,
+          "unit": "days",
+          "hours": 80
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 1,
+          "unit": "hour",
+          "hours": 1
+        },
+        "50%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "70%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "90%": {
+          "value": 10,
+          "unit": "hours",
+          "hours": 10
+        },
+        "95%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 20,
+          "unit": "minutes",
+          "hours": 0.3333333333333333
+        },
+        "50%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "70%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "90%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "95%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "90%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "95%": {
+          "value": 10,
+          "unit": "days",
+          "hours": 80
+        }
+      }
+    }
+  },
+  "shapes_hard": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "medium",
+      "claude-opus-4.5": "medium",
+      "grok-4-07-09": "unknown"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "50%": {
+          "value": 1.5,
+          "unit": "days",
+          "hours": 12.0
+        },
+        "70%": {
+          "value": 4,
+          "unit": "days",
+          "hours": 32
+        },
+        "90%": {
+          "value": 2,
+          "unit": "weeks",
+          "hours": 80
+        },
+        "95%": {
+          "value": 8,
+          "unit": "weeks",
+          "hours": 320
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "90%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        },
+        "95%": {
+          "value": 120,
+          "unit": "hours",
+          "hours": 120
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 30,
+          "unit": "minutes",
+          "hours": 0.5
+        },
+        "50%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 20,
+          "unit": "hours",
+          "hours": 20
+        },
+        "95%": {
+          "value": 50,
+          "unit": "hours",
+          "hours": 50
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4.0,
+          "unit": "hours",
+          "hours": 4.0
+        },
+        "50%": {
+          "value": 2.0,
+          "unit": "days",
+          "hours": 16.0
+        },
+        "70%": {
+          "value": 5.0,
+          "unit": "days",
+          "hours": 40.0
+        },
+        "90%": {
+          "value": 2.0,
+          "unit": "weeks",
+          "hours": 80.0
+        },
+        "95%": {
+          "value": 4.0,
+          "unit": "weeks",
+          "hours": 160.0
+        }
+      }
+    }
+  },
+  "shapes_variable": {
+    "difficulty": {
+      "gpt-5.2:medium": "hard",
+      "gemini-3-pro-preview": "High",
+      "claude-opus-4.5": "medium",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 10,
+          "unit": "hours",
+          "hours": 10
+        },
+        "70%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "90%": {
+          "value": 5,
+          "unit": "weeks",
+          "hours": 200
+        },
+        "95%": {
+          "value": 5,
+          "unit": "months",
+          "hours": 800
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 24,
+          "unit": "hours",
+          "hours": 24
+        },
+        "90%": {
+          "value": 120,
+          "unit": "hours",
+          "hours": 120
+        },
+        "95%": {
+          "value": 300,
+          "unit": "hours",
+          "hours": 300
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 1.5,
+          "unit": "hours",
+          "hours": 1.5
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 30,
+          "unit": "hours",
+          "hours": 30
+        },
+        "95%": {
+          "value": 80,
+          "unit": "hours",
+          "hours": 80
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 1,
+          "unit": "week",
+          "hours": 40
+        },
+        "90%": {
+          "value": 4,
+          "unit": "weeks",
+          "hours": 160
+        },
+        "95%": {
+          "value": 3,
+          "unit": "months",
+          "hours": 480
+        }
+      }
+    }
+  },
+  "splash_easy": {
+    "difficulty": {
+      "gpt-5.2:medium": "hard",
+      "gemini-3-pro-preview": "medium",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "unknown"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 1.5,
+          "unit": "days",
+          "hours": 12.0
+        },
+        "70%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "90%": {
+          "value": 6,
+          "unit": "days",
+          "hours": 48
+        },
+        "95%": {
+          "value": 2,
+          "unit": "weeks",
+          "hours": 80
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 10,
+          "unit": "hours",
+          "hours": 10
+        },
+        "90%": {
+          "value": 24,
+          "unit": "hours",
+          "hours": 24
+        },
+        "95%": {
+          "value": 48,
+          "unit": "hours",
+          "hours": 48
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 1.5,
+          "unit": "hours",
+          "hours": 1.5
+        },
+        "50%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "70%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "90%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "95%": {
+          "value": 30,
+          "unit": "hours",
+          "hours": 30
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4.0,
+          "unit": "hours",
+          "hours": 4.0
+        },
+        "50%": {
+          "value": 1.5,
+          "unit": "days",
+          "hours": 12.0
+        },
+        "70%": {
+          "value": 5.0,
+          "unit": "days",
+          "hours": 40.0
+        },
+        "90%": {
+          "value": 2.0,
+          "unit": "weeks",
+          "hours": 80.0
+        },
+        "95%": {
+          "value": 4.0,
+          "unit": "weeks",
+          "hours": 160.0
+        }
+      }
+    }
+  },
+  "splash_hard": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 7,
+          "unit": "days",
+          "hours": 56
+        },
+        "90%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        },
+        "95%": {
+          "value": 8,
+          "unit": "weeks",
+          "hours": 320
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 24,
+          "unit": "hours",
+          "hours": 24
+        },
+        "90%": {
+          "value": 60,
+          "unit": "hours",
+          "hours": 60
+        },
+        "95%": {
+          "value": 120,
+          "unit": "hours",
+          "hours": 120
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 2,
+          "unit": "hours",
+          "hours": 2
+        },
+        "50%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "70%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "90%": {
+          "value": 24,
+          "unit": "hours",
+          "hours": 24
+        },
+        "95%": {
+          "value": 40,
+          "unit": "hours",
+          "hours": 40
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "70%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "90%": {
+          "value": 1,
+          "unit": "week",
+          "hours": 40
+        },
+        "95%": {
+          "value": 3,
+          "unit": "weeks",
+          "hours": 120
+        }
+      }
+    }
+  },
+  "xor_easy": {
+    "difficulty": {
+      "gpt-5.2:medium": "hard",
+      "gemini-3-pro-preview": "hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "hard"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 12,
+          "unit": "days",
+          "hours": 96
+        },
+        "95%": {
+          "value": 24,
+          "unit": "days",
+          "hours": 192
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 16,
+          "unit": "hours",
+          "hours": 16
+        },
+        "90%": {
+          "value": 32,
+          "unit": "hours",
+          "hours": 32
+        },
+        "95%": {
+          "value": 64,
+          "unit": "hours",
+          "hours": 64
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 15,
+          "unit": "hours",
+          "hours": 15
+        },
+        "90%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "95%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 1.5,
+          "unit": "days",
+          "hours": 12.0
+        },
+        "70%": {
+          "value": 4,
+          "unit": "days",
+          "hours": 32
+        },
+        "90%": {
+          "value": 8,
+          "unit": "days",
+          "hours": 64
+        },
+        "95%": {
+          "value": 12,
+          "unit": "days",
+          "hours": 96
+        }
+      }
+    }
+  },
+  "xor_hard": {
+    "difficulty": {
+      "gpt-5.2:medium": "very_hard",
+      "gemini-3-pro-preview": "very_hard",
+      "claude-opus-4.5": "hard",
+      "grok-4-07-09": "unknown"
+    },
+    "estimates": {
+      "gpt-5.2:medium": {
+        "25%": {
+          "value": 6,
+          "unit": "hours",
+          "hours": 6
+        },
+        "50%": {
+          "value": 2,
+          "unit": "days",
+          "hours": 16
+        },
+        "70%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "90%": {
+          "value": 12,
+          "unit": "days",
+          "hours": 96
+        },
+        "95%": {
+          "value": 4,
+          "unit": "weeks",
+          "hours": 160
+        }
+      },
+      "gemini-3-pro-preview": {
+        "25%": {
+          "value": 4,
+          "unit": "hours",
+          "hours": 4
+        },
+        "50%": {
+          "value": 12,
+          "unit": "hours",
+          "hours": 12
+        },
+        "70%": {
+          "value": 3,
+          "unit": "days",
+          "hours": 24
+        },
+        "90%": {
+          "value": 5,
+          "unit": "days",
+          "hours": 40
+        },
+        "95%": {
+          "value": 8,
+          "unit": "days",
+          "hours": 64
+        }
+      },
+      "claude-opus-4.5": {
+        "25%": {
+          "value": 3,
+          "unit": "hours",
+          "hours": 3
+        },
+        "50%": {
+          "value": 8,
+          "unit": "hours",
+          "hours": 8
+        },
+        "70%": {
+          "value": 14,
+          "unit": "hours",
+          "hours": 14
+        },
+        "90%": {
+          "value": 20,
+          "unit": "hours",
+          "hours": 20
+        },
+        "95%": {
+          "value": 35,
+          "unit": "hours",
+          "hours": 35
+        }
+      },
+      "grok-4-07-09": {
+        "25%": {
+          "value": 4.0,
+          "unit": "hours",
+          "hours": 4.0
+        },
+        "50%": {
+          "value": 2.0,
+          "unit": "days",
+          "hours": 16.0
+        },
+        "70%": {
+          "value": 5.0,
+          "unit": "days",
+          "hours": 40.0
+        },
+        "90%": {
+          "value": 2.0,
+          "unit": "weeks",
+          "hours": 80.0
+        },
+        "95%": {
+          "value": 1.0,
+          "unit": "month",
+          "hours": 160.0
+        }
+      }
+    }
+  }
+}
