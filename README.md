@@ -14,16 +14,16 @@ Time horizons roughly **double every 5 months**. From ~24 minutes (GPT-4, June
 
 | Model | Release | Time horizon (95% CI) |
 |-------|---------|----------------------|
-| GPT-4 | Jun 2023 | 24 min [4 min, 51 min] |
-| Claude 3 Opus | Mar 2024 | 1.1 h [16 min, 2.3 h] |
-| Claude 3.5 Sonnet | Jun 2024 | 1.9 h [59 min, 3.5 h] |
-| o1-preview | Sep 2024 | 6.2 h [4.2 h, 10.5 h] |
-| o4-mini (high) | Apr 2025 | 8.4 h [5.8 h, 13.6 h] |
-| o3-pro (high) | Jun 2025 | 11.8 h [7.2 h, 18.9 h] |
-| GPT-5 (high) | Aug 2025 | 14.5 h [8.6 h, 24.1 h] |
-| Gemini 3 Pro (high) | Nov 2025 | 22.3 h [14.4 h, 36.2 h] |
-| GPT-5.2 (xhigh) | Dec 2025 | 30.6 h [18.3 h, 54.4 h] |
 | Claude Opus 4.6 (adaptive) | Feb 2026 | 37.7 h [21.6 h, 62.4 h] |
+| GPT-5.2 (xhigh) | Dec 2025 | 30.6 h [18.3 h, 54.4 h] |
+| Gemini 3 Pro (high) | Nov 2025 | 22.3 h [14.4 h, 36.2 h] |
+| GPT-5 (high) | Aug 2025 | 14.5 h [8.6 h, 24.1 h] |
+| o3-pro (high) | Jun 2025 | 11.8 h [7.2 h, 18.9 h] |
+| o4-mini (high) | Apr 2025 | 8.4 h [5.8 h, 13.6 h] |
+| o1-preview | Sep 2024 | 6.2 h [4.2 h, 10.5 h] |
+| Claude 3.5 Sonnet | Jun 2024 | 1.9 h [59 min, 3.5 h] |
+| Claude 3 Opus | Mar 2024 | 1.1 h [16 min, 2.3 h] |
+| GPT-4 | Jun 2023 | 24 min [4 min, 51 min] |
 
 These are LLM-estimated human work-hours. An alternative analysis calibrated
 against a human estimator's times yields similar doubling times (~6 months) but smaller
