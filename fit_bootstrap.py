@@ -44,7 +44,7 @@ MODELS = [
     "gpt-5.2",                   # gpt-5.2 (xhigh)
 ]
 
-USE_CALIBRATION = True
+USE_CALIBRATION = False
 
 THRESHOLDS = [0.25, 0.50, 0.70, 0.90, 0.95]
 THRESHOLD_LABELS = ["25%", "50%", "70%", "90%", "95%"]

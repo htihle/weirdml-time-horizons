@@ -1,5 +1,5 @@
 """
-Money plot: x50 (estimated human time at 50% success) vs model release date,
+Money plot: x50 (LLM-estimated human work-hours at 50% success) vs model release date,
 with exponential trend fit using bootstrap resampling for uncertainty.
 
 Model: log10(hours) = a + b * t  (t in years since first model)
@@ -16,7 +16,7 @@ from datetime import datetime, timedelta
 
 # ── Config ─────────────────────────────────────────────────────────────
 
-USE_CALIBRATION = True
+USE_CALIBRATION = False
 
 N_TREND_BOOTSTRAP = 10000
 SEED = 123

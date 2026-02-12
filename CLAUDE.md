@@ -8,8 +8,13 @@ curve per model, then tracks how time horizons grow over model generations.
 
 ## Key Result
 
-Time horizons double roughly every 6 months (calibrated). From ~9 min (gpt-4,
-June 2023) to ~6 hours (gpt-5.2, December 2025).
+Time horizons roughly double every 5 months. From ~24 min (gpt-4,
+June 2023) to ~31 hours (gpt-5.2, December 2025).
+
+The headline results use raw LLM time estimates. An alternative analysis
+calibrated against a single human estimator gives similar doubling times (~6 months)
+but smaller absolute values (~9 min to ~6 h), since LLM time estimates run
+~3–8× higher than those of that estimator.
 
 ## Data
 
@@ -19,8 +24,8 @@ June 2023) to ~6 hours (gpt-5.2, December 2025).
 - `data/all_estimates.csv` — Same data in CSV format.
 - `data/weirdml_results.json` — WeirdML benchmark scores. 84 models × 17 tasks
   × multiple runs (typically 5). Each run has a score 0–1.
-- `data/human_estimates.json` — Human baseline for 3 tasks. Used to generate 
-  the calibration
+- `data/human_estimates.json` — Human time estimates for 3 tasks (single
+  estimator). Used to generate the calibration
 - `analysis/calibration.json` — Threshold-dependent calibration factors, 
   derived from the human estimates. `avg_log_diff` is in **ln** space 
   (divide by ln(10) for log10).
@@ -41,8 +46,9 @@ For each of 9 models, fits: `p(success) = sigmoid(β * (log10(hours) - x50))`
 - 5000 bootstrap samples per model
 - Outputs per model: `fit.png`, `corner.png`, `bootstrap_samples.npz`
 - Outputs: `summary.json` with medians and 95% CIs
-- Toggle `USE_CALIBRATION` for calibrated vs uncalibrated runs
-- Results go to `results_cal/` or `results_no_cal/`
+- `USE_CALIBRATION = False` (default) for headline results, `True` for
+  human-calibrated alternative
+- Results go to `results_no_cal/` (default) or `results_cal/`
 
 ### `plot_timeline.py` — Money plot (time horizon vs release date)
 
