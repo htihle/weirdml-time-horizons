@@ -42,6 +42,7 @@ MODELS = [
     "gpt-5-2025-08-07",          # gpt-5 (high)
     "gemini-3-pro-preview",      # gemini-3-pro-preview (high)
     "gpt-5.2",                   # gpt-5.2 (xhigh)
+    "claude-opus-4.6:or_adaptive", # claude-opus-4.6 (adaptive)
 ]
 
 USE_CALIBRATION = False

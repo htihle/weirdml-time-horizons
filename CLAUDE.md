@@ -9,11 +9,11 @@ curve per model, then tracks how time horizons grow over model generations.
 ## Key Result
 
 Time horizons roughly double every 5 months. From ~24 min (gpt-4,
-June 2023) to ~31 hours (gpt-5.2, December 2025).
+June 2023) to ~38 hours (claude-opus-4.6, February 2026).
 
 The headline results use raw LLM time estimates. An alternative analysis
 calibrated against a single human estimator gives similar doubling times (~6 months)
-but smaller absolute values (~9 min to ~6 h), since LLM time estimates run
+but smaller absolute values (~9 min to ~7 h), since LLM time estimates run
 ~3–8× higher than those of that estimator.
 
 ## Data
@@ -34,7 +34,7 @@ but smaller absolute values (~9 min to ~6 h), since LLM time estimates run
 
 ### `fit_bootstrap.py` — Main analysis (per-model logistic fits)
 
-For each of 9 models, fits: `p(success) = sigmoid(β * (log10(hours) - x50))`
+For each of 10 models, fits: `p(success) = sigmoid(β * (log10(hours) - x50))`
 
 - Each (task, threshold, estimator, run) = one binary data point
 - Using all 4 estimator models' time estimates as separate x-values naturally
@@ -58,11 +58,11 @@ For each of 9 models, fits: `p(success) = sigmoid(β * (log10(hours) - x50))`
 - Reports doubling time with 95% CI
 - Toggle `USE_CALIBRATION`
 
-## Models (9 total)
-These are the models that, at some time, had the highest WeirdML score. 
+## Models (10 total)
+These are the models that, at some time, had the highest WeirdML score.
 gpt-4, claude-3-opus, claude-3.5-sonnet-20240620, o1-preview,
 o4-mini (high), o3-pro (high), gpt-5 (high), gemini-3-pro-preview (high),
-gpt-5.2 (xhigh)
+gpt-5.2 (xhigh), claude-opus-4.6 (adaptive)
 
 Note: `claude-3.5-sonnet-20240620` is the original June 2024 model, not the
 later one posthumously called claude-3.6-sonnet.

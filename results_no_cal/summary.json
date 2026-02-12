@@ -44,7 +44,7 @@
   "claude-3.5-sonnet-20240620": {
     "display_name": "claude-3.5-sonnet",
     "release_date": "2024-06-20",
-    "cost_per_run_usd": 0.24560110588235287,
+    "cost_per_run_usd": 0.24560110588235293,
     "mean_total_output_tokens": 1965.84,
     "x50_q025": -0.005269142522018759,
     "x50_q50": 0.2885534168553523,
@@ -128,7 +128,7 @@
   "gpt-5-2025-08-07": {
     "display_name": "gpt-5 (high)",
     "release_date": "2025-08-07",
-    "cost_per_run_usd": 0.5931804044117646,
+    "cost_per_run_usd": 0.5931804044117647,
     "mean_total_output_tokens": 10675.137254901962,
     "x50_q025": 0.9349331501573253,
     "x50_q50": 1.1603294009293061,
@@ -149,7 +149,7 @@
   "gemini-3-pro-preview": {
     "display_name": "gemini-3-pro-preview (high)",
     "release_date": "2025-11-18",
-    "cost_per_run_usd": 0.5257711076923078,
+    "cost_per_run_usd": 0.5257711076923077,
     "mean_total_output_tokens": 7795.272527472527,
     "x50_q025": 1.159202940032269,
     "x50_q50": 1.3475480110633895,
@@ -170,7 +170,7 @@
   "gpt-5.2": {
     "display_name": "gpt-5.2 (xhigh)",
     "release_date": "2025-12-11",
-    "cost_per_run_usd": 2.0473807117647063,
+    "cost_per_run_usd": 2.047380711764706,
     "mean_total_output_tokens": 27866.955294117648,
     "x50_q025": 1.261344519849561,
     "x50_q50": 1.4862143518030613,
@@ -186,6 +186,27 @@
     "beta_q975": -1.8166288382020908,
     "n_data": 1695,
     "n_success": 976,
+    "n_bootstrap_good": 5000
+  },
+  "claude-opus-4.6:or_adaptive": {
+    "display_name": "claude-opus-4.6 (adaptive)",
+    "release_date": "2026-02-05",
+    "cost_per_run_usd": 5.779370588235294,
+    "mean_total_output_tokens": 31732.670588235294,
+    "x50_q025": 1.3343907431195006,
+    "x50_q50": 1.5762394177785692,
+    "x50_q975": 1.7954443795431374,
+    "x50_hours_q025": 21.596866470069415,
+    "x50_hours_q50": 37.69115254342977,
+    "x50_hours_q975": 62.43733811395813,
+    "x50_time_q025": "21.6 h",
+    "x50_time_q50": "37.7 h",
+    "x50_time_q975": "1.6 wk (62 h)",
+    "beta_q025": -3.7465529994965294,
+    "beta_q50": -2.74542281333422,
+    "beta_q975": -2.067688375878883,
+    "n_data": 678,
+    "n_success": 416,
     "n_bootstrap_good": 5000
   }
 }

@@ -10,7 +10,7 @@ which it reaches 50% success probability on
 ## Key finding
 
 Time horizons roughly **double every 5 months**. From ~24 minutes (GPT-4, June
-2023) to ~31 hours (GPT-5.2, December 2025).
+2023) to ~38 hours (Claude Opus 4.6, February 2026).
 
 | Model | Release | Time horizon (95% CI) |
 |-------|---------|----------------------|
@@ -23,6 +23,7 @@ Time horizons roughly **double every 5 months**. From ~24 minutes (GPT-4, June
 | GPT-5 (high) | Aug 2025 | 14.5 h [8.6 h, 24.1 h] |
 | Gemini 3 Pro (high) | Nov 2025 | 22.3 h [14.4 h, 36.2 h] |
 | GPT-5.2 (xhigh) | Dec 2025 | 30.6 h [18.3 h, 54.4 h] |
+| Claude Opus 4.6 (adaptive) | Feb 2026 | 37.7 h [21.6 h, 62.4 h] |
 
 These are LLM-estimated human work-hours. An alternative analysis calibrated
 against a human estimator's times yields similar doubling times (~6 months) but smaller
@@ -80,7 +81,7 @@ threshold groups in the uncalibrated data.
 
 ### Trend fit
 
-An exponential trend is fitted to x₅₀ vs. release date across all 9 models,
+An exponential trend is fitted to x₅₀ vs. release date across all 10 models,
 with 10,000 bootstrap iterations propagating per-model uncertainty into the
 trend estimate.
 
