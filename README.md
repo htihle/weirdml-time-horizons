@@ -37,6 +37,11 @@ Four LLMs (GPT-5.2, Gemini 3 Pro, Claude Opus 4.5, Grok 4) are asked: *"How
 long would a human need to reach X% accuracy on this task?"* for five accuracy
 thresholds (25%, 50%, 70%, 90%, 95%) across 17 WeirdML tasks. This produces
 time estimates in hours for each (task, threshold, estimator) combination.
+A single human (me) also estimated completion times for 3 of the 17 tasks
+(prior to seeing the predictions from the LLMs),providing a point of 
+comparison. The figure below shows all estimates by task.
+
+![Time estimates by task and model](visualization/time_horizon_estimates.png)
 
 Time units are converted to **work-hours**: 1 day = 8 h, 1 week = 40 h,
 1 month = 160 h — reflecting that "a week" means a week of focused effort,
@@ -66,11 +71,12 @@ correlations.
 
 ### Calibration (alternative analysis)
 
-LLM time estimates run ~3–8× higher than those of a single human estimator
-(threshold-dependent). A human estimate on 3 tasks provides calibration offsets,
-applied in log-space. The calibrated analysis gives similar doubling times
-(~6 months vs ~5 months uncalibrated). Per-threshold analysis shows more
-consistent fits across threshold groups in the uncalibrated data.
+LLM time estimates run ~3–8× higher than those of the human estimator
+(threshold-dependent, visible in the figure above). These differences on the 3
+human-estimated tasks provide calibration offsets, applied in log-space. The
+calibrated analysis gives similar doubling times (~6 months vs ~5 months
+uncalibrated). Per-threshold analysis shows more consistent fits across
+threshold groups in the uncalibrated data.
 
 ### Trend fit
 
@@ -83,6 +89,7 @@ trend estimate.
 ```
 data/                   Input data (benchmark scores + time estimates)
 analysis/               Calibration factors
+visualization/          Time estimate comparison figure
 fit_bootstrap.py        Per-model logistic fits with bootstrap
 fit_by_threshold.py     Per-threshold-group analysis (single model)
 plot_timeline.py        Time horizon vs. release date trend plot
