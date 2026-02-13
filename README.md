@@ -55,7 +55,7 @@ Each model's WeirdML scores are converted to binary outcomes (pass/fail) at
 each threshold. Combined with the time estimates, this gives ~2000 data points
 per model of the form $(\log_{10}(\text{hours}),\; \text{success})$. A logistic curve is fitted:
 
-$$p(\text{success}) = \sigma\!\left(\beta \cdot (\log_{10}(\text{hours}) - x_{50})\right)$$
+$$p(\text{success}) = \sigma\left(\beta \cdot (\log_{10}(\text{hours}) - x_{50})\right)$$
 
 where $x_{50}$ is the model's time horizon — the $\log_{10}(\text{hours})$ at which it has
 50% success probability.
