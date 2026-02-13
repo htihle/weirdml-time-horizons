@@ -53,14 +53,14 @@ not 168 hours of continuous work.
 
 Each model's WeirdML scores are converted to binary outcomes (pass/fail) at
 each threshold. Combined with the time estimates, this gives ~2000 data points
-per model of the form (log₁₀(hours), success). A logistic curve is fitted:
+per model of the form $(\log_{10}(\text{hours}),\; \text{success})$. A logistic curve is fitted:
 
-```
-p(success) = sigmoid(β × (log₁₀(hours) − x₅₀))
-```
+$$p(\text{success}) = \sigma\!\left(\beta \cdot (\log_{10}(\text{hours}) - x_{50})\right)$$
 
-where **x₅₀** is the model's time horizon — the log₁₀(hours) at which it has
+where $x_{50}$ is the model's time horizon — the $\log_{10}(\text{hours})$ at which it has
 50% success probability.
+
+![Example logistic fit](results_no_cal/claude-opus-4.6_(adaptive)/fit.png)
 
 Using all four estimator models as separate x-values naturally captures
 uncertainty in the time estimates without explicit error propagation.
@@ -68,7 +68,7 @@ uncertainty in the time estimates without explicit error propagation.
 ### Bootstrap uncertainty
 
 Task-level block bootstrap (5000 resamples of the 17 tasks with replacement)
-provides uncertainty estimates for x₅₀ and β, accounting for within-task
+provides uncertainty estimates for $x_{50}$ and $\beta$, accounting for within-task
 correlations.
 
 ### Calibration (alternative analysis)
@@ -82,15 +82,14 @@ threshold groups in the uncalibrated data.
 
 ### Trend fit
 
-An exponential trend is fitted to x₅₀ vs. release date across all 10 models,
+An exponential trend is fitted to $x_{50}$ vs. release date across all 10 models,
 with 10,000 bootstrap iterations propagating per-model uncertainty into the
 trend estimate.
 
 ## Repository structure
 
 ```
-data/                   Input data (benchmark scores + time estimates)
-analysis/               Calibration factors
+data/                   Input data (benchmark scores, time estimates, calibration)
 visualization/          Time estimate comparison figure
 fit_bootstrap.py        Per-model logistic fits with bootstrap
 fit_by_threshold.py     Per-threshold-group analysis (single model)

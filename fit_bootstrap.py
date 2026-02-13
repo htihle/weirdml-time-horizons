@@ -27,7 +27,7 @@ with open("data/all_estimates.json") as f:
 with open("data/weirdml_results.json") as f:
     results = json.load(f)
 
-with open("analysis/calibration.json") as f:
+with open("data/calibration.json") as f:
     calibration = json.load(f)
 
 # ── Config ─────────────────────────────────────────────────────────────

@@ -26,7 +26,7 @@ but smaller absolute values (~9 min to ~7 h), since LLM time estimates run
   × multiple runs (typically 5). Each run has a score 0–1.
 - `data/human_estimates.json` — Human time estimates for 3 tasks (single
   estimator). Used to generate the calibration
-- `analysis/calibration.json` — Threshold-dependent calibration factors, 
+- `data/calibration.json` — Threshold-dependent calibration factors, 
   derived from the human estimates. `avg_log_diff` is in **ln** space 
   (divide by ln(10) for log10).
 
