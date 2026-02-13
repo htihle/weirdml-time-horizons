@@ -1,8 +1,9 @@
 # WeirdML Time Horizons
 
 Estimating and tracking how the "time horizon" of LLMs grows across model
-generations. A model's time horizon is the human-equivalent task duration at
-which it reaches 50% success probability on
+generations, inspired by [METR's time-horizon work](https://metr.org/time-horizons/)
+([paper](https://arxiv.org/abs/2503.14499)). A model's time horizon is the
+human-equivalent task duration at which it reaches 50% success probability on
 [WeirdML](https://htihle.github.io/weirdml/) benchmark tasks.
 
 ![Timeline plot](results_no_cal/timeline.png)
