@@ -1,5 +1,7 @@
 # WeirdML Time Horizons
 
+Full [blog post](https://www.lesswrong.com/posts/hoQd3rE7WEaduBmMT/weirdml-time-horizons).
+
 Estimating and tracking how the "time horizon" of LLMs grows across model
 generations, inspired by [METR's time-horizon work](https://metr.org/time-horizons/)
 ([paper](https://arxiv.org/abs/2503.14499)). A model's time horizon is the
@@ -35,8 +37,10 @@ single human estimator. Both analyses are included in the repository.
 
 ### Time estimates
 
-Four LLMs (GPT-5.2, Gemini 3 Pro, Claude Opus 4.5, Grok 4) are asked: *"How
-long would a human need to reach X% accuracy on this task?"* for five accuracy
+Four LLMs (GPT-5.2, Gemini 3 Pro, Claude Opus 4.5, Grok 4) are asked roughly 
+(see the [blog post](https://www.lesswrong.com/posts/hoQd3rE7WEaduBmMT/weirdml-time-horizons) for the full prompt): *"How
+long would a human need to reach X% accuracy on this task?"* 
+(together with code examples ++) for five accuracy
 thresholds (25%, 50%, 70%, 90%, 95%) across 17 WeirdML tasks. This produces
 time estimates in hours for each (task, threshold, estimator) combination.
 A single human (me) also estimated completion times for 3 of the 17 tasks
