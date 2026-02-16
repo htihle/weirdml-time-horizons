@@ -27,7 +27,7 @@ Time horizons roughly **double every 5 months**. From ~24 minutes (GPT-4, June
 | GPT-4 | Jun 2023 | 24 min [4 min, 51 min] |
 
 These are LLM-estimated human work-hours. An alternative analysis calibrated
-against a human estimator's times yields similar doubling times (~6 months) but smaller
+against a human (me) estimator's times yields similar doubling times (~6 months) but smaller
 absolute values, since LLM time estimates run ~3–8× higher than those of a
 single human estimator. Both analyses are included in the repository.
 
